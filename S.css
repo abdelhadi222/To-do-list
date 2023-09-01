@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 950px;
+    height: fit-content;
+    background-color: rgb(222, 222, 222);
+    margin: 20px auto;
+    
+}
+.one {
+    width: 100%;
+    padding: 10PX;
+    background-color: rgb(0, 202, 145);
+    height: 80PX;
+}
+.one {
+ 
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+
+}
+.one input {
+    width: 100%;
+    height: 30PX;
+    background-color: rgba(255, 255, 255, 0.643);
+    border: none;
+    display: flex;
+ align-self: center;
+ border-radius: 0 15px 15px 0;
+ padding-left: 20PX;
+ font-size: 23PX;
+}
+.one span {
+    align-self: center;
+    width: 40PX;
+    height: 40PX;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+     color: rgb(0, 202, 145);
+   position: absolute;
+   right: 3PX;
+   cursor: pointer;
+}
+.one .dakhlone span{
+    width: 45PX;
+    height: 45px ;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;justify-content: center;
+    align-items: center;
+    color: rgb(0, 202, 145);
+    position: absolute;
+    right: 0px;
+
+
+}
+.chiTow {
+    padding: 10PX;
+}
+.task {
+    width: 100%;
+    height: 40PX;
+    padding: 5px;
+    background-color: white;
+        display: flex;
+    align-items: center;
+    margin-bottom: 10PX;
+    color: rgb(145, 145, 145);
+}
+.task-one ,
+.task-two {
+        width: 100%;
+    height: 40PX;
+    padding: 5px;
+    background-color: white;
+        display: flex;
+    align-items: center;
+    margin-bottom: 10PX;
+    justify-content: space-between;
+
+
+}
+.task-one .span ,
+.task-one .spa 
+ {
+    background-color: rgb(51, 153, 51);
+    color: white;
+    padding: 4px;
+    border-radius: 5PX;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+
+
+}
+.task-one .spa {
+    background-color: rgb(254, 81, 81);
+}
+.fi {
+     width: 950px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto; 
+}
+.dakhlFi {
+    display: flex;
+    gap: 5PX;
+}
+.blue {
+    background-color: rgb(0, 186, 186);
+    width: 30PX;
+    height: 30PX;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.rose {
+        background-color:rebeccapurple;
+    width: 30PX;
+    height: 30PX;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+section .chiTow div.fini{
+    text-decoration: line-through;
+}
+.none {
+    display: none;
+}
+.spp {
+    background-color: red;
+    padding: 5px;
+    border: none;
+    border-radius: 10PX;
+    font-size: 20PX;
+    color: white;
+    cursor:  pointer;
+}
+.zz {
+    display: none;
+}
